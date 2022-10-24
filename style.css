@@ -1,0 +1,275 @@
+@media (max-width: 768px) {
+    nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    nav .boxs {
+       display: none;
+    }
+    nav .boxs a{
+        display: none;
+    }
+    .box {
+        width: 100%;
+    }
+    .book {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    header {
+        flex-direction: column;
+        display: flex;
+    }
+    .crush {
+        width: 100%;
+    }
+    .bar img, h1 {
+        margin: 0 !important;
+    }
+    .bo {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 12px;
+        gap: 30px;
+    }
+   .bo .lorem {
+        width: 100% !important;
+        margin: 0;
+        padding: 0;
+        min-height: 10vh; 
+        text-align: center;
+    }
+    .bo h1 {
+        font-size: 45px;
+    }
+    .bo img {
+        padding: 0;
+    }
+
+    .bar {
+        display: flex;
+        flex-direction: column;
+        padding: 15px 10px;
+        gap: 50px;
+        justify-content: center;
+        align-items: center;
+    }
+    .bar h1 {
+        font-size: 45px;
+        text-align: center;
+    }
+    .bar img {
+        position: relative;
+        width: 50%;
+    }
+    .premium {
+        padding-top: 30px;
+    }
+    .premium .text-img {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        border: none;
+    }
+    .premium .text-img .img-box {
+        width: 100%;
+        min-height: 10vh;
+    }
+    .img-box .png {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 10px;
+    }
+    .img-box .ipsum {
+        text-align: center;
+        width: 100%;
+        padding: 10px 10px;
+    }
+    .text-box {
+        padding: 10px 10px;
+    }
+    .text-box .water  {
+        width: 100%;
+        min-height: 18vh;
+    }
+    .water h1 {
+        font-size: 45px;
+        text-align: center;
+        line-height: 55px;
+    }
+    .dolor {
+        width: 100%;
+        text-align: center;
+        font-size: 17px;
+        padding: 10px 7px;
+    }
+    .Our-Showcase {
+        display: flex;
+        flex-direction: column;
+    }
+    .navbar {
+        padding: 10px 10px;
+        min-height: 7vh;
+    }
+    .navbar h1 {
+        font-size: 45px;
+    }
+    .navbar .href {
+        display: none;
+    }
+    .navbar .href a {
+        display: none;
+    }
+    .body {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+    .body .cris .image .auto h4, h5 {
+        text-align: center;
+    }
+    .Our-Showcase .footer {
+        margin-top: 30px;
+    }
+    .living {
+        padding: 10px 12px;
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+    .living .left {
+        width: 100%;
+    }
+    .left .com {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        width: 100%;
+        min-height: 90vh;
+    }
+    .left .com .h1 h1 {
+        font-size: 45px;
+        text-align: center;
+    }
+    .com .adip {
+        text-align: center;
+    }
+    .left .wable {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .left .wable .wable-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .wable-box .diam {
+        text-align: center;
+    }
+    .living .right {
+        width: 100%;
+        min-height: 45vh;
+    }
+    .right img {
+        width: 100%;
+        min-height: 40vh;
+    }
+    .What-Our-Client-Say {
+        padding: 10px 10px;
+    }
+    .What-Our-Client-Say h1 {
+        font-size: 45px;
+    }
+    .What-Our-Client-Say .personal-information {
+        display: flex;
+       flex-direction: column;
+       gap: 50px;
+    }
+    .personal-information .information {
+        width: 100%;
+        padding: 0;
+    }
+
+    .information .i {
+        display: flex;
+        gap: 30px;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+    }
+    .information h2 {
+        font-size: 35px;
+    }
+    .Subscribe {
+        display: flex;
+        flex-direction: column;
+        padding: 12px;
+        gap: 30px;
+    }
+    .Subscribe .image-box {
+        width: 100%;
+        min-height: 40vh;
+    }
+    .image-box img {
+        width: 100%;
+        min-height: 35vh;
+    }
+    .Subscribe .text-div {
+        width: 100%;
+        min-height: 30vh;
+    }
+    .text-div .news {
+        width: 100%;
+    }
+    .news h1 {
+        font-size: 40px;
+        text-align: center;
+    }
+    .text-div input {
+        width: 95%;
+        margin: 0 auto;
+    }
+    footer .navst {
+        min-height: 7vh;
+    }
+    .navst .link {
+         width: 100%;
+        display: none;
+    }
+    .footerst {
+        display: flex;
+        flex-direction: column;
+        min-height: 20vh;
+    }
+    .footerst .h3 {
+        width: 100%;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+    .footerst .branding {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .branding .brand {
+        width: 45px;
+        min-height: 45px;
+        font-size: 23px;
+    }
+}
